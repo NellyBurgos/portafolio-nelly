@@ -1,0 +1,162 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio – Nelly Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #faf3f3;
+      --text-color: #222;
+      --accent-color: #642e69;
+      --card-bg: #d1cece;
+    }
+
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: var(--accent-color);
+    }
+
+    section {
+      background-color: var(--card-bg);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2, h3, h4 {
+      color: var(--accent-color);
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    ul li::before {
+      content: "✔";
+      color: var(--accent-color);
+      padding-right: 8px;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portafolio de Proyectos – Nelly Dev</h1>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>🎓 Sobre mí</h2>
+    <p>
+       Soy <strong>Nelly</strong>, estudiante de programacón en formación con una fuerte motivación por crear soluciones accesibles, funcionales y centradas en la experiencia del usuario.
+      Me interesa especialmente el impacto social de la tecnología, por eso busco construir herramientas que faciliten la vida cotidiana y promuevan la inclusión educativa.
+    </p>
+    <p>
+      Valoro la lógica clara en el código, la semántica web y las interfaces limpias. Actualmente estoy perfeccionando mis habilidades en <strong>JavaScript, Python, C++, Css, Html y bases de datos PostgreSQL, SQLserver</strong>, y explorando tecnologías como <strong>Node.js(Express), React y Firebase</strong>.
+    </p>
+  </section>
+
+  <section id="proyecto">
+    <h2>📘 Proyecto destacado: Recordatorio Estudiantil</h2>
+    <p>Aplicación web diseñada para ayudar a estudiantes a gestionar sus eventos académicos — parciales, entregas, exámenes — de forma clara, responsiva y accesible desde cualquier dispositivo.</p>
+
+    <h3>🧩 Rol en el proyecto</h3>
+    <p>Desarrollé toda la lógica de funcionamiento con <strong>JavaScript </strong>, estructuré el <strong>HTML</strong> para mantener una semántica clara y diseñé una interfaz adaptable a dispositivos móviles. Además, implementé funciones como listado dinámico, limpieza de eventos y control de entradas.</p>
+
+    <h3>📌 Funcionalidades principales</h3>
+    <ul>
+      <li>Selección de materia y tipo de evento (parcial, final, entrega, etc.)</li>
+      <li>Asignación de fecha y hora</li>
+      <li>Botón para agregar evento a la lista</li>
+      <li>Botón para limpiar todos los eventos</li>
+      <li>Listado de eventos cargados (puede integrarse con localStorage)</li>
+      <li>Interfaz clara y responsiva para celulares</li>
+      <li>Tema claro/oscuro</li>
+    </ul>
+
+    <h3>🛠️ Tecnologías utilizadas</h3>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Versión futura: React + Firebase</li>
+    </ul>
+
+    <h3>📎 Links</h3>
+    <p>
+      🌐 <a href="https://recordatorio-estudiantil.netlify.app/" target="_blank">Versión en línea</a><br>
+      💻 <a href="https://github.com/NellyBurgos/recordatorio-estudiantil.git" target="_blank">Código fuente en GitHub</a>
+    </p>
+
+    <h3>🎯 Objetivo</h3>
+    <p>Brindar una solución práctica a estudiantes para que no se olviden de fechas importantes, con una interfaz accesible desde cualquier dispositivo y sin necesidad de instalar nada.</p>
+
+    <h3>🔄 Estado actual</h3>
+    <ul>
+      <li>Versión funcional completa con JavaScript</li>
+      <li>En desarrollo: versión con React y Firebase</li>
+    </ul>
+
+    <h3>💡 Próximas mejoras</h3>
+    <ul>
+      <li>Notificaciones push</li>
+      <li>Filtrado por fecha o materia</li>
+      <li>Guardado en la nube con login de usuario</li>
+    </ul>
+
+    <h3>🖼️ Captura del proyecto</h3>
+    <img src="recordatorio.png" alt="Captura del Recordatorio Estudiantil">
+  </section>
+
+  <section id="contacto">
+    <h2>📬 Contacto</h2>
+    <p>Puedes escribirme a <a href="mailto:burgosn871@gmail.com">burgosn871@gmail.com</a></p>
+    <p>O visitar mi <a href="https://github.com/NellyBurgos" target="_blank">GitHub</a></p>
+  </section>
+
+<footer>
+  Hecho con ❤️ por Nelly · 2025
+</footer>
+</body>
+</html>
