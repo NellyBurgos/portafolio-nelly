@@ -24,11 +24,11 @@ Una aplicación web diseñada para ayudar a estudiantes a gestionar sus eventos 
 👩‍💻 Desarrollado por
 
 *Nelly* – 2025  
-📫 [Mi perfil de GitHub](https://github.com/Nelly8urgos)
+📫 [Mi perfil de GitHub](http://github.com/NellyBurgos)
 
 ---
 
 🔗 Enlaces útiles
 
-- 📁 [Ver repositorio del proyecto](https://github.com/Nelly8urgos/recordatorio-estudiantil)
-- 🌐 [Ver proyecto online](https://nelly8urgos.github.io/recordatorio-estudiantil/)
+- 📁 [Ver repositorio del proyecto](https://github.com/NellyBurgos/recordatorio-estudiantil.git)
+- 🌐 [Ver proyecto online](https://recordatorio-estudiantil.netlify.app/)
