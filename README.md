@@ -5,7 +5,7 @@ Este portafolio recopila los proyectos en los que estoy trabajando y los conocim
 
 ---
 
-📌 Proyecto destacado: [Recordatorio Estudiantil](https://recordatorio-estudiantil.netlify.app/)
+📌 Proyecto destacado: [Recordatorio Estudiantil](https://portafolio-nelly.netlify.app/)
 
 Una aplicación web diseñada para ayudar a estudiantes a gestionar sus eventos académicos como parciales, entregas, exámenes y más.
 
