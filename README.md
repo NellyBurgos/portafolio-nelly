@@ -31,4 +31,4 @@ Una aplicación web diseñada para ayudar a estudiantes a gestionar sus eventos 
 🔗 Enlaces útiles
 
 - 📁 [Ver repositorio del proyecto](https://github.com/NellyBurgos/recordatorio-estudiantil.git)
-- 🌐 [Ver proyecto online](https://recordatorio-estudiantil.netlify.app/)
+- 🌐 [Ver proyecto online](https://nellyburgos.github.io/recordatorio-estudiantil/)
